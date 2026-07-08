@@ -1,0 +1,10 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/debug/deps/compression_core-ee2facd0e9713849.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/level.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/unshared.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/util.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/debug/deps/libcompression_core-ee2facd0e9713849.rlib: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/level.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/unshared.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/util.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/debug/deps/libcompression_core-ee2facd0e9713849.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/level.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/unshared.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/util.rs
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/lib.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/level.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/unshared.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/compression-core-0.4.32/src/util.rs:

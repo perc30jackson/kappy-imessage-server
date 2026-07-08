@@ -1,0 +1,27 @@
+{
+  "": {
+    "dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/kappy_hw_export.d",
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/kappy_hw_export.o",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/master.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/HwIdentifiers.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/HwIdentifiers.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/HwIdentifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/HwIdentifiers.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/Util.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/Util.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/Util~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/Util.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/mac_hw_info.pb.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/mac_hw_info.pb.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/mac_hw_info.pb~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/mac_hw_info.pb.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/main.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/main.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/kappy_hw_export.build/main.swiftdeps"
+  }
+}

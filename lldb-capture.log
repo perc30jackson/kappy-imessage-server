@@ -1,0 +1,25 @@
+(lldb) process attach --pid 61656
+Process 61656 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = signal SIGSTOP
+    frame #0: 0x000000018e5ddc34 libsystem_kernel.dylib`mach_msg2_trap + 8
+libsystem_kernel.dylib`mach_msg2_trap:
+->  0x18e5ddc34 <+8>: ret    
+
+libsystem_kernel.dylib`macx_swapon:
+    0x18e5ddc38 <+0>: mov    x16, #-0x30               ; =-48 
+    0x18e5ddc3c <+4>: svc    #0x80
+    0x18e5ddc40 <+8>: ret
+Executable binary set to "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd".
+Architecture set to: arm64e-apple-macosx-.
+(lldb) command source -s 0 '/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/nac-validation-provider/lldb/capture_nac.lldb'
+Executing commands in '/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/nac-validation-provider/lldb/capture_nac.lldb'.
+(lldb) # Attach: lldb -p <identityservicesd-pid> -s capture_nac.lldb
+(lldb) # Env: KAPPY_NAC_SIGN_OFF=0x7fd004 KAPPY_NAC_CAPTURE_OUT=validation-pilot.json KAPPY_LLDB_PY_PATH=<lldb dir>
+(lldb) command script import lldb
+(lldb) script import os, sys; sys.path.insert(0, os.environ.get("KAPPY_LLDB_PY_PATH", ".")); import nac_capture
+(lldb) script nac_capture.install_nac_sign_breakpoint(lldb.debugger, None, None, None)
+[kappy-nac] breakpoint on NACInit 0x8832cc -> 0x10174b2cc (id 1)
+[kappy-nac] breakpoint on NACKeyEst 0x7e3a44 -> 0x1016aba44 (id 2)
+[kappy-nac] breakpoint on NACSign 0x7fd004 -> 0x1016c5004 (id 3)
+[kappy-nac] NOTE: kappy-spike register does NOT call NACSign — toggle iMessage in Messages.app (Settings → iMessage off/on)
+(lldb) continue

@@ -1,0 +1,12 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/snafu-4682ff7421119af4.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_inert.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/no_std_error.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/libsnafu-4682ff7421119af4.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_inert.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/no_std_error.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/lib.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/backtrace_inert.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/error_chain.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/no_std_error.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/Snafu.md:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/report.md:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-0.7.5/src/../README.md:

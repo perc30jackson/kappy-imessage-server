@@ -1,0 +1,30 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-protobuf",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/apple/swift-protobuf.git",
+          "name" : "SwiftProtobuf"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "9f0c76544701845ad98716f3f6a774a892152bcb",
+            "version" : "1.26.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "swift-protobuf"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

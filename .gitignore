@@ -3,5 +3,14 @@
 /vendor/
 .env
 spike/state/
+poc/shared.env
+poc/lines/*.env
+poc/lines/*-esim-qr.png
+poc/ngrok.env
+poc/lines.toml
+poc/shared/hw-export.bin
+poc/lines/*/state/
+poc/logs/
+poc/run/
 *.plist
 .DS_Store

@@ -1,0 +1,14 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/deps/serde-9d336312178e9c50.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/serde-e17cd56a30d40e8c/out/private.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/deps/libserde-9d336312178e9c50.rlib: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/serde-e17cd56a30d40e8c/out/private.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/deps/libserde-9d336312178e9c50.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/serde-e17cd56a30d40e8c/out/private.rs
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/serde-e17cd56a30d40e8c/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/serde-e17cd56a30d40e8c/out

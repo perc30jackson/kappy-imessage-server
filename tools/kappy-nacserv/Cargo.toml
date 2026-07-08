@@ -1,0 +1,22 @@
+[package]
+name = "kappy-nacserv"
+version = "0.1.0"
+edition = "2021"
+description = "Miniature NAC validation HTTP server for kappy fleet"
+publish = false
+
+[[bin]]
+name = "kappy-nacserv"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+axum = { version = "0.7", features = ["json"] }
+base64 = "0.22"
+clap = { version = "4", features = ["derive", "env"] }
+log = "0.4"
+pretty_env_logger = "0.5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1", features = ["v4"] }

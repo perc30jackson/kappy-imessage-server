@@ -1,0 +1,7 @@
+# Attach: lldb -p <identityservicesd-pid> -s capture_nac.lldb
+# Env: KAPPY_NAC_SIGN_OFF=0x7fd004 KAPPY_NAC_CAPTURE_OUT=validation-pilot.json KAPPY_LLDB_PY_PATH=<lldb dir>
+
+command script import lldb
+script import os, sys; sys.path.insert(0, os.environ.get("KAPPY_LLDB_PY_PATH", ".")); import nac_capture
+script nac_capture.install_nac_sign_breakpoint(lldb.debugger, None, None, None)
+continue

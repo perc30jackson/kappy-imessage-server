@@ -3,9 +3,9 @@ use std::sync::Arc;
 use std::time::{Duration, SystemTime};
 
 use async_trait::async_trait;
-use rustpush::{
-    activation::ActivationInfo, util::encode_hex, DebugMeta, OSConfig, PushError, RegisterMeta,
-};
+use rustpush::{ActivationInfo, DebugMeta, OSConfig, PushError, RegisterMeta};
+
+use crate::util::encode_hex;
 use serde::{Deserialize, Serialize};
 use uuid::Uuid;
 
@@ -22,7 +22,6 @@ pub struct SpikeMacConfig {
     pub icloud_ua: String,
     pub aoskit_version: String,
     pub udid: Option<String>,
-    #[serde(skip)]
     pub validation: ValidationStore,
 }
 
@@ -126,7 +125,7 @@ impl OSConfig for SpikeMacConfig {
             .await
             .ok_or_else(|| PushError::CustomerMessage(rustpush::SupportAlert {
                 title: "Validation data missing".to_string(),
-                body: "Run mac-registration-provider -once or start validation-server + submit sidecar"
+                body: "Run fetch-validation-relay, inject-validation, or start validation-server with a remote Mac pusher (see docs/spike-runbook.md)"
                     .to_string(),
                 action: None,
             }))
@@ -159,6 +158,7 @@ impl OSConfig for SpikeMacConfig {
             ("X-Apple-I-SRL-NO", self.inner.platform_serial_number.as_str()),
         ]
         .into_iter()
+        .filter(|(_, v)| !v.is_empty())
         .map(|(k, v)| (k.to_string(), v.to_string()))
         .collect()
     }

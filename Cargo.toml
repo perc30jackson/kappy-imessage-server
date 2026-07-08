@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["spike", "api"]
+
+[workspace.package]
+edition = "2021"
+publish = false

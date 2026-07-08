@@ -1,0 +1,95 @@
+ DEBUG kappy_spike::keystore_setup > keystore initialized at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/state/keystore.plist
+ DEBUG kappy_spike                 > loaded persisted validation.json
+ INFO  rustpush::aps               > Generating APS
+ INFO  rustpush::aps               > Generating Opened socket
+ INFO  rustpush::util              > Writing 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1270:24@40311
+ INFO  rustpush::util              > Write 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1270:24@40311
+ INFO  rustpush::util              > Write mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1270:24@40311 dropped
+ INFO  rustpush::aps               > Locked messages
+ INFO  rustpush::util              > Locking 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1272:22@35126
+ INFO  rustpush::util              > Locked 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1272:22@35126
+ INFO  rustpush::util              > Mutex 64993 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1272:22@35126 dropped
+ INFO  rustpush::aps               > Locked socket
+ INFO  rustpush::aps               > Locking state
+ INFO  rustpush::util              > Writing 8570 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1420:36@43885
+ INFO  rustpush::util              > Write 8570 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1420:36@43885
+ INFO  rustpush::aps               > Locked state
+ INFO  rustpush::aps               > Subscribing APS
+ INFO  rustpush::util              > Reading 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@46036
+ INFO  rustpush::util              > Read 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@46036
+ INFO  rustpush::util              > Read mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@46036 dropped
+ INFO  rustpush::aps               > Sending
+ INFO  rustpush::aps               > Attempting to send
+ INFO  rustpush::util              > Locking 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@16254
+ INFO  rustpush::util              > Locked 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@16254
+ INFO  rustpush::util              > Mutex 23303 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@16254 dropped
+ INFO  rustpush::util              > Locking 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@64629
+ INFO  rustpush::util              > Locked 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@64629
+ INFO  rustpush::util              > Mutex 64993 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@64629 dropped
+ INFO  rustpush::aps               > Waiting for connect response
+ INFO  rustpush::aps               > raw connect response APSPackedMessage { command: 8, attributes: [APSPackedAttribute { id: [1], value: Int(0), cached: false }, APSPackedAttribute { id: [4], value: Int(5120), cached: false }, APSPackedAttribute { id: [5], value: Int(9), cached: false }, APSPackedAttribute { id: [6], value: Int(3), cached: false }, APSPackedAttribute { id: [8], value: Int(-14336), cached: false }, APSPackedAttribute { id: [10], value: Int(1783464359531), cached: false }, APSPackedAttribute { id: [11], value: String("US"), cached: false }, APSPackedAttribute { id: [12], value: Int(1783464359531), cached: false }] }
+ INFO  rustpush::util              > Reading 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@23809
+ INFO  rustpush::util              > Read 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@23809
+ INFO  rustpush::util              > Read mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@23809 dropped
+ INFO  rustpush::util              > Write mtx 8570 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1420:36@43885 dropped
+ INFO  rustpush::aps               > Sending
+ INFO  rustpush::aps               > Attempting to send
+ INFO  rustpush::util              > Locking 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@12683
+ INFO  rustpush::util              > Locked 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@12683
+ INFO  rustpush::util              > Mutex 23303 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@12683 dropped
+ INFO  rustpush::util              > Locking 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@21102
+ INFO  rustpush::util              > Locked 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@21102
+ INFO  rustpush::util              > Mutex 64993 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@21102 dropped
+ INFO  rustpush::aps               > Updating topics
+ INFO  rustpush::util              > Locking 59161 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1462:43@60389
+ INFO  rustpush::util              > Locked 59161 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1462:43@60389
+ INFO  rustpush::util              > Reading 8570 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1409:20@64299
+ INFO  rustpush::util              > Read 8570 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1409:20@64299
+ INFO  rustpush::util              > Read mtx 8570 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1409:20@64299 dropped
+ INFO  rustpush::aps               > Attempting to send
+ INFO  rustpush::util              > Locking 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@4596
+ INFO  rustpush::util              > Locked 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@4596
+ INFO  rustpush::util              > Mutex 23303 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@4596 dropped
+ INFO  rustpush::util              > Locking 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@10643
+ INFO  rustpush::util              > Locked 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@10643
+ INFO  rustpush::aps               > Using vcache 0
+ INFO  rustpush::util              > Mutex 64993 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@10643 dropped
+ INFO  rustpush::util              > Mutex 59161 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1462:43@60389 dropped
+ INFO  rustpush::aps               > Updated
+ INFO  rustpush::util              > Locking 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1338:27@40249
+ INFO  rustpush::util              > Locked 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1338:27@40249
+ INFO  rustpush::util              > Mutex 23303 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1338:27@40249 dropped
+ INFO  rustpush::util              > Reading 8570 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:329:40@5798
+ INFO  rustpush::util              > Read 8570 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:329:40@5798
+ INFO  rustpush::util              > Read mtx 8570 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:329:40@5798 dropped
+ INFO  kappy_spike::anisette       > using aoskit anisette for MacBookPro18,1
+ INFO  rustpush::util              > Reading 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@35982
+ INFO  rustpush::util              > Read 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@35982
+ INFO  rustpush::util              > Read mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1489:23@35982 dropped
+ INFO  rustpush::aps               > Attempting to send
+ INFO  rustpush::util              > Locking 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@26129
+ INFO  rustpush::util              > Locked 23303 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@26129
+ INFO  rustpush::util              > Ensuring not failed
+ INFO  rustpush::util              > Mutex 23303 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1526:41@26129 dropped
+ INFO  rustpush::util              > Locking 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@39100
+ INFO  rustpush::util              > Locked 64993 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@39100
+ INFO  rustpush::util              > Mutex 64993 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1532:44@39100 dropped
+ INFO  kappy_spike::login          > Starting Apple ID GSA login for henry@jabronicapital.com
+ INFO  rustpush::util              > Locking 41063 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:244:33@53226
+ INFO  rustpush::util              > Locked 41063 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:244:33@53226
+ DEBUG kappy_spike::anisette       > aoskit anisette aligned to device_id=C625C13E-C20D-5807-AD6D-6D2007599844 (keys: ["X-Apple-I-MD-LU", "X-Apple-Locale", "X-Apple-I-TimeZone", "X-Mme-Client-Info", "X-Apple-I-MD-M", "X-Apple-I-Client-Time", "X-Apple-I-MD", "X-Mme-Device-Id", "X-Apple-I-MD-RINFO"])
+ INFO  rustpush::util              > Reading 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@56353
+ INFO  rustpush::util              > Read 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@56353
+ INFO  rustpush::util              > Read mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@56353 dropped
+ INFO  rustpush::util              > Reading 48215 lock at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@34663
+ INFO  rustpush::util              > Read 48215 locked at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@34663
+ INFO  rustpush::util              > Read mtx 48215 guard /Users/hnguyen/Documents/GitHub/kappy-imessage-server/vendor/rustpush/src/aps.rs:1280:59@34663 dropped
+ INFO  rustpush::util              > Mutex 41063 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:244:33@53226 dropped
+ INFO  kappy_spike::login          > Apple login state: LoggedIn
+ INFO  kappy_spike::login          > Apple ID GSA login complete
+ INFO  rustpush::util              > Locking 41063 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:373:37@186
+ INFO  rustpush::util              > Locked 41063 mutex at /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:373:37@186
+ INFO  kappy_spike::login          > Updating iCloud postdata for device Mac-DHX29H1XM7
+ INFO  kappy_spike::login          > Requesting IDS and MobileMe login delegates
+ INFO  rustpush::util              > Mutex 41063 /Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/src/login.rs:373:37@186 dropped
+ INFO  kappy_spike::login          > IDS user saved to id.plist

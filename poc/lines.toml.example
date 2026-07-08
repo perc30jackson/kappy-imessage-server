@@ -1,0 +1,31 @@
+# Fleet API config — copy to poc/lines.toml (gitignored)
+# Paths are relative to repo root unless absolute.
+
+[api]
+listen = "127.0.0.1:8080"
+# Bearer token for REST (portal). Override: KAPPY_API_TOKEN
+token = "change-me-in-production"
+# Shared hardware export for activate on lines 2–3
+hw_export = "poc/shared/hw-export.bin"
+# Optional nacserv for background validation refresh
+nacserv_url = "http://192.168.64.3:8788"
+nacserv_token = ""
+
+[[lines]]
+id = "1"
+label = "henry@jabronicapital.com"
+state_dir = "spike/state"
+enabled = true
+
+[[lines]]
+id = "2"
+label = "line-2"
+state_dir = "poc/lines/line-2/state"
+enabled = true
+# Apple ID credentials: set in poc/lines/line-2.env (KAPPY_APPLE_ID / PASSWORD)
+
+[[lines]]
+id = "3"
+label = "line-3"
+state_dir = "poc/lines/line-3/state"
+enabled = true

@@ -1,0 +1,11 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/xmas_elf-97d6254e28b1097b.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/header.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/sections.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/program.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/symbol_table.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/dynamic.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/hash.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/libxmas_elf-97d6254e28b1097b.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/header.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/sections.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/program.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/symbol_table.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/dynamic.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/hash.rs
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/lib.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/header.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/sections.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/program.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/symbol_table.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/dynamic.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/xmas-elf-0.9.1/src/hash.rs:

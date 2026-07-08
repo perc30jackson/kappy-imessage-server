@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# Run Beeper mac-registration-provider in submit mode against the spike validation HTTP endpoint.
-# Requires: mac-registration-provider binary on PATH (see beeper/mac-registration-provider releases).
+# Run kappy NAC validation wrapper in submit mode against the spike validation HTTP endpoint.
 set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PROVIDER="${KAPPY_NAC_PROVIDER:-$ROOT/tools/nac-validation-provider/kappy-nac-validation-provider}"
 INTERVAL="${SUBMIT_INTERVAL:-300}"
 URL="${VALIDATION_SUBMIT_URL:-http://127.0.0.1:8787/internal/validation}"
-TOKEN="${SUBMIT_TOKEN:-}"
 
-ARGS=(-submit-interval "${INTERVAL}s")
-if [[ -n "$TOKEN" ]]; then
-  ARGS+=(-submit-token "$TOKEN")
+if [[ ! -x "$PROVIDER" ]]; then
+  echo "Building kappy-nac-validation-provider..."
+  make -C "$ROOT/tools/nac-validation-provider"
 fi
 
-echo "Submitting validation data every ${INTERVAL}s to ${URL}"
-exec mac-registration-provider "${ARGS[@]}" "$URL"
+exec "$PROVIDER" -submit-interval "$INTERVAL" "$URL"
+

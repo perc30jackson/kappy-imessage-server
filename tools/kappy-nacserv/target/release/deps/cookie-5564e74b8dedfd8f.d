@@ -1,0 +1,11 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/cookie-5564e74b8dedfd8f.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/builder.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/parse.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/jar.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/delta.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/draft.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/expiration.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/libcookie-5564e74b8dedfd8f.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/lib.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/builder.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/parse.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/jar.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/delta.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/draft.rs /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/expiration.rs
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/lib.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/builder.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/parse.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/jar.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/delta.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/draft.rs:
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cookie-0.17.0/src/expiration.rs:

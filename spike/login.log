@@ -1,0 +1,7 @@
+ INFO  kappy_spike::anisette > using aoskit anisette for MacBookPro18,1
+ INFO  kappy_spike::login    > Starting Apple ID GSA login for henry@jabronicapital.com
+ INFO  kappy_spike::login    > Apple login state: LoggedIn
+ INFO  kappy_spike::login    > Apple ID GSA login complete
+ INFO  kappy_spike::login    > Updating iCloud postdata for device Mac-DHX29H1XM7
+ INFO  kappy_spike::login    > Requesting IDS and MobileMe login delegates
+ INFO  kappy_spike::login    > IDS user saved to id.plist

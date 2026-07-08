@@ -1,0 +1,5 @@
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/pin_project-9283c4cdb2751ef7.d: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-1.1.13/src/lib.rs
+
+/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/kappy-nacserv/target/release/deps/libpin_project-9283c4cdb2751ef7.rmeta: /Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-1.1.13/src/lib.rs
+
+/Users/hnguyen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-1.1.13/src/lib.rs:

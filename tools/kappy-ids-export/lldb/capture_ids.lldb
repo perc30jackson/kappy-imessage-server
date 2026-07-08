@@ -1,0 +1,9 @@
+# Attach: lldb -s capture_ids.lldb
+# Or: KAPPY_IDS_CAPTURE_OUT=ids-export.json ./capture-ids.sh
+# Env: KAPPY_LLDB_PY_PATH=<lldb dir> KAPPY_IDS_USER=<login user>
+# Safer on VM: KAPPY_IDS_SKIP_PRIVATE_KEY=1 (less ObjC probing)
+
+command script import lldb
+script import os, sys; sys.path.insert(0, os.environ.get("KAPPY_LLDB_PY_PATH", ".")); import ids_capture
+script ids_capture.dump_ids_registrations(lldb.debugger, None, lldb.SBCommandReturnObject(), None)
+detach

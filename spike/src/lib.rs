@@ -1,8 +1,15 @@
+pub mod anisette;
+pub mod carrier_probe;
 pub mod engine;
 pub mod hardware;
 pub mod hwinfo;
+pub mod ids_handles;
+pub mod import_gui;
+pub mod import_ids_export;
+pub mod keystore_setup;
 pub mod login;
 pub mod mac_config;
+pub mod sms_reg;
 pub mod state;
 pub mod util;
 pub mod validation;

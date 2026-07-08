@@ -1,0 +1,3 @@
+testing init=0x2a7360 key=0x24fd8c sign=0x2335e8
+NAC child exited without result (likely exit() inside identityservicesd)
+result rc=-99 (NAC pipeline crashed (bad key_est/sign offsets)) len=0

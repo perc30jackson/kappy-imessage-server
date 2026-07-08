@@ -1,0 +1,19 @@
+expr -l objc -O -- (void)[[IDSRegistrationKeyManager sharedInstance] keyPairProvider]
+expr -l objc --
+@import Foundation;
+@import Security;
+id provider = [[IDSRegistrationKeyManager sharedInstance] keyPairProvider];
+SecKeyRef *pubp = (SecKeyRef *)malloc(sizeof(SecKeyRef));
+SecKeyRef *privp = (SecKeyRef *)malloc(sizeof(SecKeyRef));
+id *sigp = (id *)malloc(sizeof(id));
+BOOL *migp = (BOOL *)malloc(sizeof(BOOL));
+BOOL *upp = (BOOL *)malloc(sizeof(BOOL));
+*pubp = NULL; *privp = NULL; *sigp = nil; *migp = NO; *upp = NO;
+BOOL ok = [(id)provider copyRegistrationKeyPairForIdentifier:@"D:19478336641" publicKey:pubp privateKey:privp keyPairSignature:sigp isMigratedSignature:migp isUpgradePending:upp];
+ok
+expr -l objc -O -- *privp
+expr -l objc -O -- (unsigned long)*privp
+expr -l objc --
+CFErrorRef err = NULL;
+CFDataRef der = SecKeyCopyExternalRepresentation(*privp, &err);
+(long)CFDataGetLength(der)

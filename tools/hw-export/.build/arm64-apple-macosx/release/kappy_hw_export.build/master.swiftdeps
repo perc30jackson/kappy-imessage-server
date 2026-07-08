@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)"
+options: "f5a146c81eda363709f71f6cbf3695a1a1c8c9983a73c700a441ce4e608250ef"
+build_start_time: [1783462915, 722621000]
+build_end_time: [1783462916, 652881000]
+inputs:
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/HwIdentifiers.swift": [1783462911, 238667365]
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/Util.swift": [1783462715, 649125963]
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/mac_hw_info.pb.swift": [1783462715, 652253843]
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/Sources/kappy-hw-export/main.swift": [1783462714, 710457178]

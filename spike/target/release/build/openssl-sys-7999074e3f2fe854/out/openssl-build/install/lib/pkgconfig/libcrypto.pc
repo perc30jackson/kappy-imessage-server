@@ -1,0 +1,14 @@
+# 
+prefix=/Users/hnguyen/Documents/GitHub/kappy-imessage-server/spike/target/release/build/openssl-sys-7999074e3f2fe854/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include 
+enginesdir=${libdir}/engines-3
+modulesdir=${libdir}/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.6.3
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}

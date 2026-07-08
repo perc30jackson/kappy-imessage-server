@@ -76,7 +76,8 @@ impl SpikeStateDir {
 
     pub fn save_users(&self, users: &[IDSUser]) -> Result<()> {
         self.ensure()?;
-        plist::to_file_xml(self.users_path(), users).context("write id.plist")?;
+        let users = users.to_vec();
+        plist::to_file_xml(self.users_path(), &users).context("write id.plist")?;
         Ok(())
     }
 
@@ -86,6 +87,10 @@ impl SpikeStateDir {
 
     pub fn id_cache_path(&self) -> PathBuf {
         self.root.join("id_cache.plist")
+    }
+
+    pub fn keystore_path(&self) -> PathBuf {
+        self.root.join("keystore.plist")
     }
 
     pub fn write_meta(&self, key: &str, value: &impl Serialize) -> Result<()> {

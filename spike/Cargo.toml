@@ -5,6 +5,10 @@ edition = "2021"
 description = "U0 R1 feasibility spike: rustpush headless iMessage on macOS"
 publish = false
 
+[lib]
+name = "kappy_spike"
+path = "src/lib.rs"
+
 [[bin]]
 name = "kappy-spike"
 path = "src/main.rs"
@@ -22,12 +26,17 @@ prost = "0.12"
 rand = "0.8"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "charset", "http2", "system-proxy", "native-tls"] }
 sha2 = "0.10"
 tokio = { version = "1", features = ["full"] }
 uuid = { version = "1", features = ["v4"] }
+rustls = { version = "0.23", default-features = false, features = ["aws-lc-rs", "std", "tls12"] }
 
 # Path after running scripts/vendor-rustpush.sh from repo root.
 rustpush = { path = "../vendor/rustpush", default-features = false, features = ["remote-anisette-v3"] }
+keystore = { path = "../vendor/rustpush/keystore" }
+omnisette = { path = "../vendor/rustpush/apple-private-apis/omnisette", features = ["remote-anisette-v3"] }
+chrono = "0.4"
 
 [build-dependencies]
 prost-build = "0.12"

@@ -1,0 +1,102 @@
+{
+  "": {
+    "dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/protoc_gen_swift.d",
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/protoc_gen_swift.o",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/master.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/CommandLine+Extensions.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/CommandLine+Extensions.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/CommandLine+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/CommandLine+Extensions.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/Descriptor+Extensions.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Descriptor+Extensions.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Descriptor+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Descriptor+Extensions.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/EnumGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/EnumGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/EnumGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/EnumGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/ExtensionSetGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/ExtensionSetGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/ExtensionSetGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/ExtensionSetGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/FieldGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FieldGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FieldGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FieldGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/FileGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/FileIo.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileIo.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileIo~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/FileIo.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/GenerationError.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GenerationError.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GenerationError~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GenerationError.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/GeneratorOptions.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GeneratorOptions.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GeneratorOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/GeneratorOptions.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/Google_Protobuf_DescriptorProto+Extensions.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_DescriptorProto+Extensions.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_DescriptorProto+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_DescriptorProto+Extensions.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/Google_Protobuf_FileDescriptorProto+Extensions.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_FileDescriptorProto+Extensions.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_FileDescriptorProto+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Google_Protobuf_FileDescriptorProto+Extensions.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/MessageFieldGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageFieldGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageFieldGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageFieldGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/MessageGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/MessageStorageClassGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageClassGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageClassGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageClassGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/MessageStorageDecision.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageDecision.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageDecision~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/MessageStorageDecision.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/OneofGenerator.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/OneofGenerator.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/OneofGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/OneofGenerator.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/StringUtils.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/StringUtils.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/StringUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/StringUtils.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/Version.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Version.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Version~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/Version.swiftdeps"
+  },
+  "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/protoc-gen-swift/main.swift": {
+    "object": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/main.swift.o",
+    "swiftmodule": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/protoc_gen_swift-tool.build/main.swiftdeps"
+  }
+}

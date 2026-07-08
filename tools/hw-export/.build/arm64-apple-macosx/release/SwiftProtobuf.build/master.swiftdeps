@@ -1,0 +1,177 @@
+version: "Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)"
+options: "1123be5943499f2bba778a7e18b37f339c4d2c2bde947e671d5a7339f8ce9612"
+build_start_time: [1783462850, 912228000]
+build_end_time: [1783462868, 857470000]
+inputs:
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/arm64-apple-macosx/release/SwiftProtobuf.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1783462849, 720827388]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyMessageStorage.swift"
+  : [1783462849, 62447188]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/AnyUnpackError.swift"
+  : [1783462849, 62532730]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecoder.swift"
+  : [1783462849, 62686647]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingError.swift"
+  : [1783462849, 62786730]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDecodingOptions.swift"
+  : [1783462849, 62854272]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryDelimited.swift"
+  : [1783462849, 62992980]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncoder.swift"
+  : [1783462849, 63270814]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingError.swift"
+  : [1783462849, 63349523]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingOptions.swift"
+  : [1783462849, 63416356]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift"
+  : [1783462849, 63552065]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/BinaryEncodingVisitor.swift"
+  : [1783462849, 63725148]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/CustomJSONCodable.swift"
+  : [1783462849, 63848315]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Data+Extensions.swift"
+  : [1783462849, 63917607]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Decoder.swift"
+  : [1783462849, 64129066]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/DoubleParser.swift"
+  : [1783462849, 64228107]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Enum.swift"
+  : [1783462849, 64308274]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensibleMessage.swift"
+  : [1783462849, 64374691]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFieldValueSet.swift"
+  : [1783462849, 64439108]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionFields.swift"
+  : [1783462849, 64533275]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ExtensionMap.swift"
+  : [1783462849, 64631691]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTag.swift"
+  : [1783462849, 64706775]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/FieldTypes.swift"
+  : [1783462849, 64819650]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift"
+  : [1783462849, 64989025]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift"
+  : [1783462849, 65136984]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift"
+  : [1783462849, 65276401]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift"
+  : [1783462849, 65420318]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift"
+  : [1783462849, 65515443]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_NullValue+Extensions.swift"
+  : [1783462849, 65589068]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift"
+  : [1783462849, 65653193]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"
+  : [1783462849, 65772735]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift"
+  : [1783462849, 65938610]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift"
+  : [1783462849, 66097777]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/HashVisitor.swift"
+  : [1783462849, 66222527]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Internal.swift"
+  : [1783462849, 66301777]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecoder.swift"
+  : [1783462849, 66594195]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingError.swift"
+  : [1783462849, 66842320]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONDecodingOptions.swift"
+  : [1783462849, 66938945]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncoder.swift"
+  : [1783462849, 67227612]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingError.swift"
+  : [1783462849, 67349196]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingOptions.swift"
+  : [1783462849, 67419904]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONEncodingVisitor.swift"
+  : [1783462849, 67602530]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift"
+  : [1783462849, 67783613]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/JSONScanner.swift"
+  : [1783462849, 67974530]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/MathUtils.swift"
+  : [1783462849, 68064030]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+AnyAdditions.swift"
+  : [1783462849, 68180906]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+BinaryAdditions.swift"
+  : [1783462849, 68303906]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONAdditions.swift"
+  : [1783462849, 68456948]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift"
+  : [1783462849, 68566573]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message+TextFormatAdditions.swift"
+  : [1783462849, 68693656]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Message.swift"
+  : [1783462849, 68818573]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/MessageExtension.swift"
+  : [1783462849, 68897323]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/NameMap.swift"
+  : [1783462849, 69026824]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtoNameProviding.swift"
+  : [1783462849, 69220116]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift"
+  : [1783462849, 69294782]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ProtobufMap.swift"
+  : [1783462849, 69353824]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/SelectiveVisitor.swift"
+  : [1783462849, 69496158]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/SimpleExtensionMap.swift"
+  : [1783462849, 69579950]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/StringUtils.swift"
+  : [1783462849, 69641658]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecoder.swift"
+  : [1783462849, 69735242]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingError.swift"
+  : [1783462849, 69840742]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatDecodingOptions.swift"
+  : [1783462849, 69907533]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncoder.swift"
+  : [1783462849, 70001784]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingOptions.swift"
+  : [1783462849, 70059159]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift"
+  : [1783462849, 70127617]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TextFormatScanner.swift"
+  : [1783462849, 70325284]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/TimeUtils.swift"
+  : [1783462849, 70412409]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnknownStorage.swift"
+  : [1783462849, 70478034]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeBufferPointer+Shims.swift"
+  : [1783462849, 70550951]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/UnsafeRawPointer+Shims.swift"
+  : [1783462849, 70612076]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Varint.swift"
+  : [1783462849, 70681701]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Version.swift"
+  : [1783462849, 70749743]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/Visitor.swift"
+  : [1783462849, 70851118]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/WireFormat.swift"
+  : [1783462849, 70952702]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/ZigZag.swift"
+  : [1783462849, 71008868]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/any.pb.swift"
+  : [1783462849, 71100035]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/api.pb.swift"
+  : [1783462849, 71159410]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/descriptor.pb.swift"
+  : [1783462849, 71350744]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/duration.pb.swift"
+  : [1783462849, 71530411]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/empty.pb.swift"
+  : [1783462849, 71647495]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/field_mask.pb.swift"
+  : [1783462849, 71763828]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/source_context.pb.swift"
+  : [1783462849, 71890120]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/struct.pb.swift"
+  : [1783462849, 71951162]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/timestamp.pb.swift"
+  : [1783462849, 72050745]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/type.pb.swift"
+  : [1783462849, 72111162]
+  ? "/Users/hnguyen/Documents/GitHub/kappy-imessage-server/tools/hw-export/.build/checkouts/swift-protobuf/Sources/SwiftProtobuf/wrappers.pb.swift"
+  : [1783462849, 72249954]

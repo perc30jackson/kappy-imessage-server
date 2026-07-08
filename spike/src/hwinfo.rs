@@ -2,6 +2,7 @@ use std::io::Cursor;
 use std::sync::Arc;
 
 use anyhow::{anyhow, Context, Result};
+use prost::Message;
 use rand::Rng;
 
 use crate::hardware::HardwareConfig;
