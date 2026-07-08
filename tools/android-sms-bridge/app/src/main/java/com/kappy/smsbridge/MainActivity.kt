@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var macUrl: EditText
     private lateinit var gateway: EditText
     private lateinit var regReqBody: EditText
+    private lateinit var regRespBody: EditText
     private lateinit var logView: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         macUrl = findViewById(R.id.macUrl)
         gateway = findViewById(R.id.gateway)
         regReqBody = findViewById(R.id.regReqBody)
+        regRespBody = findViewById(R.id.regRespBody)
         logView = findViewById(R.id.log)
 
         Prefs.macUrl(this)?.let { macUrl.setText(it) }
@@ -35,6 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.fetchPending).setOnClickListener { fetchPending() }
         findViewById<Button>(R.id.sendRegReq).setOnClickListener { sendRegReq() }
+        findViewById<Button>(R.id.forwardRegResp).setOnClickListener { forwardRegResp() }
 
         ensureSmsPermission()
     }
@@ -128,6 +131,36 @@ class MainActivity : AppCompatActivity() {
         } catch (e: Exception) {
             appendLog("Send failed: ${e.message}")
             toast(e.message ?: "send failed")
+        }
+    }
+
+    private fun forwardRegResp() {
+        val url = macUrl.text.toString().trim()
+        val raw = regRespBody.text.toString().trim()
+        val body = RegRespExtractor.extract(raw)
+        if (url.isEmpty()) {
+            toast("Set Mac URL first")
+            return
+        }
+        if (body == null) {
+            toast("Paste full REG-RESP?v=3;r=…;n=…;s=…")
+            return
+        }
+        Prefs.saveMacUrl(this, url)
+        appendLog("Forwarding pasted REG-RESP…")
+        thread {
+            try {
+                val resp = BridgeClient.postRegResp(url, body)
+                runOnUiThread {
+                    appendLog("Forwarded: $resp")
+                    toast("Forwarded to Mac")
+                }
+            } catch (e: Exception) {
+                runOnUiThread {
+                    appendLog("Forward failed: ${e.message}")
+                    toast(e.message ?: "forward failed")
+                }
+            }
         }
     }
 

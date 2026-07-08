@@ -43,6 +43,17 @@ Find your Mac's LAN IP: `ipconfig getifaddr en0` (e.g. `192.168.1.10`).
 5. Tap **Fetch REG-REQ** → **Send REG-REQ**
 6. When **REG-RESP** arrives, the app auto-posts to Mac (`/webhooks/sms-reg/bridge`)
 
+Apple often sends REG-RESP as a **data SMS** (not shown in Messages). This app listens for both:
+
+- `android.provider.Telephony.SMS_RECEIVED`
+- `android.intent.action.DATA_SMS_RECEIVED` (same as [PNRGatewayClient](https://github.com/iswheeler/PNRGatewayClient))
+
+If capture fails but you still have the REG-RESP text, paste it into **Paste REG-RESP** and tap **Forward REG-RESP to Mac**. Or on the Mac:
+
+```bash
+./scripts/poc-line.sh 2 sms-reg-complete --text 'REG-RESP?v=3;r=…;n=+1…;s=…' --register
+```
+
 ## API endpoints (Mac)
 
 | Method | Path | Purpose |
@@ -51,8 +62,28 @@ Find your Mac's LAN IP: `ipconfig getifaddr en0` (e.g. `192.168.1.10`).
 | POST | `/webhooks/sms-reg/bridge` | `{"text":"REG-RESP?..."}` |
 | POST | `/webhooks/telnyx/sms-reg` | Telnyx inbound (optional) |
 
+## After REG-RESP hits the Mac
+
+With `--register`, the webhook runs `authenticate_phone` + `register_ids`. Check:
+
+```bash
+./scripts/poc-line.sh 2 doctor-handles
+```
+
+You want a `tel:+…` handle alongside `mailto:`.
+
 ## Troubleshooting
 
-- **Send fails** — Telnyx wireless may not support handset SMS; try USB modem + AT+CMGS (`scripts/poc-sms-reg-modem.py`)
-- **Fetch failed** — Mac firewall; allow port 8790; same Wi‑Fi; use `0.0.0.0` listener (`poc-sms-reg-bridge.sh`)
-- **Wrong SIM** — dual-SIM phones: install Telnyx on line 2; app uses last active subscription
+| Symptom | Likely cause |
+|---------|----------------|
+| **Fetch failed** | Mac firewall / wrong IP / webhook not running; same Wi‑Fi |
+| **Send fails** | Telnyx wireless may not support handset SMS → USB modem (`poc-sms-reg-modem.py`) or prepaid SIM |
+| **Sent OK, no REG-RESP** | Outbound never reached Apple, **or** reply was data SMS and old APK lacked `DATA_SMS_RECEIVED` — rebuild/reinstall |
+| **Wrong SIM** | Dual-SIM: install Telnyx as line 2; app prefers last active subscription |
+| **Mac logs nothing** | Phone never POSTed; check app log for “forwarded” / “forward failed” |
+
+Pending endpoint smoke test (Mac):
+
+```bash
+curl -sS http://127.0.0.1:8790/webhooks/sms-reg/pending
+```

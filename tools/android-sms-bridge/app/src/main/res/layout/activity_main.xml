@@ -77,6 +77,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:text="Paste REG-RESP (manual fallback)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regRespBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="REG-RESP?v=3;r=…;n=+1…;s=…"
+            android:inputType="textMultiLine"
+            android:minLines="2" />
+
+        <Button
+            android:id="@+id/forwardRegResp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forward REG-RESP to Mac" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:text="Log"
             android:textStyle="bold" />
 
